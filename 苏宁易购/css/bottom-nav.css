@@ -1,0 +1,87 @@
+.bottom-nav{
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.bottom-nav .catalog{
+    float: left;
+    width: 270px;
+    color: #fff;
+}
+
+.catalog .all-cata{
+    display: block;
+    padding-left: 15px;
+    height: 40px;
+    line-height: 40px;
+    background: #de6429;
+    font-size: 16px;
+    color: #fff;
+    text-align: left;
+    position: relative;
+}
+
+.catalog ul{
+    position: absolute;
+}
+
+.catalog ul li{
+    width: 270px;
+    background: #3f484f;
+    border-bottom: 1px solid #fff;
+}
+.catalog ul li:hover{
+    background: #999999;
+}
+
+.catalog ul li .cata-item-1{
+    padding-left: 15px;
+    float: left;
+    height: 50px;
+    line-height: 50px;
+    color: #fff;
+}
+
+.catalog ul li .cata-item-2{
+    padding-right: 30px;
+    float: right;
+    height: 50px;
+    line-height: 50px;
+    position: relative;
+}
+
+.cata-item-2 span{
+    display: inline-block;
+    color: #fff;
+    font-size: 12px;
+}
+
+.cata-item-2 i{
+    position: absolute;
+    right: 0;
+    width: 50%;
+}
+.bottom-nav .cata-nav{
+    float: left;
+    width: 900px;
+    height: 40px;
+    background: #3f484f;
+}
+
+.cata-nav li{
+    list-style: none;
+    float: left;
+    padding: 0px 20px ;
+    cursor: pointer;
+}
+
+.cata-nav li a{
+    line-height: 40px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.cata-nav li:hover a{
+    color: #de6429;
+}

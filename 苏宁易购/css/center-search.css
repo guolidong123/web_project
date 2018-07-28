@@ -1,0 +1,147 @@
+.center-search{
+    width: 1170px;
+    height: 105px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.center-search .city a{
+    float: left;
+}
+.center-search .city img{
+    margin-top: -3px;
+    width: 200px;
+    height: 100px;
+}
+
+.city .city-change{
+    float: left;
+    margin-left: 10px;
+}
+
+.city-change p{
+    padding-top: 24px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #000;
+}
+
+.city-change .change-city{
+    display: inline-block;
+    height: 20px;
+    line-height: 20px;
+    margin-top: 3px;
+    padding: 0 5px 0 5px;
+    font-size: 12px;
+    border: 1px solid #ccc;
+    color: #777;
+}
+
+.search{
+    position: relative;
+    height: 100px;
+}
+.search .search-edit,.search input,.search button{
+    float: left;
+}
+.search .search-edit{
+    padding-top: 20px;
+    height: 40px;
+    line-height: 40px;
+}
+
+
+.search-edit .shop{
+    float: left;
+    padding: 0px 20px 0px 13px;
+    line-height: 40px;
+    border: 2px solid #f90;
+    border-right: 1px solid #999999;
+    position: relative;
+}
+
+.down-ico{
+    display: inline-block;
+    height: 0;
+    width: 0;
+    border: 3px solid transparent;
+    border-top-color: #999;
+    position: absolute;
+    top:18px;
+    right: 8px;
+}
+
+.shop:hover .down-ico{
+    border-top-color: #f90;
+    transform: rotateX(180deg);
+    transform-origin: center 25%;
+}
+
+.search-edit input[type=text]{
+    width: 378px;
+    height: 40px;
+    border-top: 2px solid #f90;
+    border-bottom: 2px solid #f90;
+    border-left: none;
+}
+
+.search-edit button{
+    margin-left: -6px;
+    width: 80px;
+    line-height: 40px;
+    background: #f90;
+    border-top: 1px solid #f90;
+    border-bottom: 3px solid #f90;
+    text-align: center;
+}
+
+.search-edit button:hover{
+    background: #826be1;
+    border-top: 1px solid #826be1;
+    border-bottom: 3px solid #826be1;
+}
+
+.search-keyword{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: absolute;
+    top: 70px;
+    left: 0;
+}
+
+.search-keyword a{
+    font-size: 12px;
+    padding-right: 14px;
+}
+
+.search-keyword a:first-child{
+    padding-left: 0;
+}
+.search-keyword a:hover{
+    color:#de6429;
+    text-decoration: underline;
+}
+
+.tip{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 100%;
+    margin-top: 29px;
+}
+
+.tip span{
+    font-size: 12px;
+    text-align: center;
+    margin-left: 20px;
+}
+
+.icon-item i{
+    display: block;
+    font-size: 24px;
+    line-height: 1;
+    color:#f90 ;
+}
